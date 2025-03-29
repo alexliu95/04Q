@@ -48,15 +48,18 @@ export default function Home() {
 						<div id={site.cate} className="py-2">{site.cate}</div>
 						<div className="grid grid-cols-6 gap-2">
 							{site.sites.map((item, i) => (
-								<div className="rounded-xl bg-gray-50 p-4 cursor-pointer hover:bg-gray-100" key={i}>
+								<Link href={`/link?link=${item.url}`} key={i}><div className="rounded-xl bg-gray-50 p-4 cursor-pointer hover:bg-gray-100">
 									<div className="flex gap-1 items-start">
 										<div><Image src={item.icon} alt={item.name} width="25" height="25" /></div>
 										<div>
-											<div className="font-semibold hover:text-">{item.name}</div>
+											<div className="font-semibold hover:text-gray-400 flex">
+												<div>{item.name}</div>
+											</div>
 											<div className="text-sm text-gray-600">{item.desc}</div>
 										</div>
 									</div>
 								</div>
+								</Link>
 							))}
 						</div>
 					</div>
@@ -67,10 +70,10 @@ export default function Home() {
 						<div className="flex justify-center gap-4 mb-2">
 							<div className="">友情链接</div>
 							<div><a href="https://onpage.ca">Onpage.ca</a></div>
-							<div><a href="https://onpage.ca">Onpage.ca</a></div>
-							<div><a href="https://onpage.ca">Onpage.ca</a></div>
-							<div><a href="https://onpage.ca">Onpage.ca</a></div>
-							<div><a href="https://onpage.ca">Onpage.ca</a></div>
+							<div><a href="https://repowerfinancial.com">Repower Financial</a></div>
+							<div><a href="https://finger-fun.com">Finger Fun</a></div>
+							<div><a href="https://liaolanqi.com">LiaoLanQi</a></div>
+							<div><a href="https://torontor.ca">Torontor.ca</a></div>
 						</div>
 						<div>All Rights Reserved By Onpage Inc {currentYear}</div>
 					</div>

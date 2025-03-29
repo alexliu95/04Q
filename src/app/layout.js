@@ -24,16 +24,17 @@ export default function RootLayout({ children }) {
       <head>
         <Script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-7T0F287NLK`}
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
         />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-7T0F287NLK');
+            gtag('config', ${process.env.GOOGLE_ANALYTICS});
           `}
         </Script>
+        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.GOOGLE_ANALYTICS}`} crossorigin="anonymous"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
