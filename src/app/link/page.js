@@ -24,8 +24,8 @@ export default function Index() {
                 </div>
                 <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.GOOGLE_ADSENSE}`}
                     crossorigin="anonymous"></script>
-                <ins class="adsbygoogle"
-                    style="display:block"
+                <ins className="adsbygoogle"
+                    style={{ display: 'block' }}
                     data-ad-client={process.env.GOOGLE_ADSENSE}
                     data-ad-slot="4340565643"
                     data-ad-format="auto"
