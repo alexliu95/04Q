@@ -25,3 +25,7 @@ SITE_DESCRIPTION=
 GITHUB_USERNAME=
 PROJECT_NAME=
 ```
+
+## 示例站点
+
+[https://04q.com](https://04q.com)
