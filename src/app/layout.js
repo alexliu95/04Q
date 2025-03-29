@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
             gtag('config', ${process.env.GOOGLE_ANALYTICS});
           `}
         </Script>
-        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.GOOGLE_ANALYTICS}`} crossorigin="anonymous"></script>
+        <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.GOOGLE_ADSENSE}`} crossorigin="anonymous"></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
