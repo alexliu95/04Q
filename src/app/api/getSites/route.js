@@ -6,7 +6,6 @@ export async function GET() {
     const filePath = path.join(process.cwd(), 'src', 'app', 'files', 'sites.json');
 
     try {
-        const fs = require('fs');
         const rawData = fs.readFileSync(filePath, 'utf-8');
         const data = JSON.parse(rawData);
         console.log('data : ', data)
