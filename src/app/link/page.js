@@ -22,7 +22,7 @@ export default function Index() {
                         </Suspense>
                     </div>
                 </div>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5556166380303516"
+                <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.GOOGLE_ADSENSE}`}
                     crossorigin="anonymous"></script>
                 <ins class="adsbygoogle"
                     style="display:block"
