@@ -1,0 +1,387 @@
+[
+    {
+        "cate": "AI大模型",
+        "sites": [
+            {
+                "name": "ChatGPT",
+                "desc": "多语言处理聊天机器人",
+                "icon": "/images/ChatGPT.png",
+                "cate": "AI大模型",
+                "url": "https://chat.openai.com",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "DeepSeek",
+                "desc": "幻方量化开源模型",
+                "icon": "/images/deepseek.png",
+                "cate": "AI大模型",
+                "url": "https://chat.deepseek.com/"
+            },
+            {
+                "name": "Gemini",
+                "desc": "Google推出的AI机器人",
+                "icon": "/images/Gemini.png",
+                "cate": "AI大模型",
+                "url": "https://gemini.google.com/app"
+            },
+            {
+                "name": "Claude",
+                "desc": "Anthropic综合实力最强",
+                "icon": "/images/claude.png",
+                "cate": "AI大模型",
+                "url": "https://claude.ai"
+            },
+            {
+                "name": "Kimi",
+                "desc": "月之暗面AI对话搜索工具",
+                "icon": "/images/kimi.png",
+                "cate": "AI大模型",
+                "url": "https://kimi.moonshot.cn/"
+            },
+            {
+                "name": "通义千问",
+                "desc": "阿里大模型",
+                "icon": "/images/tongyi.png",
+                "cate": "AI大模型",
+                "url": "https://tongyi.aliyun.com"
+            },
+            {
+                "name": "豆包",
+                "desc": "字节大模型",
+                "icon": "/images/doubao.png",
+                "cate": "AI大模型",
+                "url": "https://www.doubao.com/"
+            },
+            {
+                "name": "文心一言",
+                "desc": "Baidu大模型",
+                "icon": "/images/wenxin.png",
+                "cate": "AI大模型",
+                "url": "https://yiyan.baidu.com/"
+            },
+            {
+                "name": "混元大模型",
+                "desc": "腾讯出品的大模型",
+                "icon": "/images/hunyuan.png",
+                "cate": "AI大模型",
+                "url": "https://hunyuan.tencent.com/"
+            },
+            {
+                "name": "Meta Llama",
+                "desc": "Meta出品的开源大模型",
+                "icon": "/images/meta.png",
+                "cate": "AI大模型",
+                "url": "https://www.llama.com/"
+            }
+        ]
+    },
+    {
+        "cate": "AI图片生成",
+        "sites": [
+            {
+                "name": "即梦",
+                "desc": "抖音免费AI图片工具",
+                "icon": "/images/jimeng.png",
+                "cate": "AI图片生成",
+                "url": "https://jimeng.jianying.com/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "通义万相",
+                "desc": "阿里旗下生图模型",
+                "icon": "/images/tongyi.png",
+                "cate": "AI图片生成",
+                "url": "https://tongyi.aliyun.com/"
+            },
+            {
+                "name": "Midjourney",
+                "desc": "海外知名闭源模型",
+                "icon": "/images/midjourney.png",
+                "cate": "AI图片生成",
+                "url": "https://www.midjourney.com/"
+            },
+            {
+                "name": "Stable Diffusion",
+                "desc": "Stability开源模型",
+                "icon": "/images/stability.png",
+                "cate": "AI图片生成",
+                "url": "https://stability.ai/"
+            },
+            {
+                "name": "Flux AI",
+                "desc": "Stability原班人马",
+                "icon": "/images/flux.png",
+                "cate": "AI图片生成",
+                "url": "https://flux-ai.io/"
+            },
+            {
+                "name": "Leonardo.ai",
+                "desc": "免费的海外生图工具",
+                "icon": "/images/leonardo.png",
+                "cate": "AI图片生成",
+                "url": "https://flux-ai.io/"
+            },
+            {
+                "name": "美图设计室",
+                "desc": "美图旗下AI工具",
+                "icon": "/images/meitu.png",
+                "cate": "AI图片生成",
+                "url": "https://www.designkit.com/"
+            },
+            {
+                "name": "LibLib",
+                "desc": "国内开源AI社区",
+                "icon": "/images/liblib.png",
+                "cate": "AI图片生成",
+                "url": "https://www.liblib.art/?utm_source=04q.com"
+            }
+        ]
+    },
+    {
+        "cate": "AI视频工具",
+        "sites": [
+            {
+                "name": "可灵AI",
+                "desc": "快手AI视频大模型",
+                "icon": "/images/keling.png",
+                "cate": "AI视频工具",
+                "url": "https://app.klingai.com/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "混元AI视频",
+                "desc": "腾讯AI视频生成工具",
+                "icon": "/images/hunyuan-video-logo.png",
+                "cate": "AI视频工具",
+                "url": "https://video.hunyuan.tencent.com/"
+            },
+            {
+                "name": "HeyGen",
+                "desc": "AI数字人视频工具",
+                "icon": "/images/heygen.png",
+                "cate": "AI视频工具",
+                "url": "https://www.heygen.com/"
+            },
+            {
+                "name": "synthesia",
+                "desc": "高质量AI数字人",
+                "icon": "/images/synthesia.png",
+                "cate": "AI视频工具",
+                "url": "https://www.synthesia.io/"
+            },
+            {
+                "name": "海螺AI",
+                "desc": "视频创意平台",
+                "icon": "/images/hailuo.png",
+                "cate": "AI视频工具",
+                "url": "https://hailuoai.com/video"
+            },
+            {
+                "name": "Pika",
+                "desc": "Pika视频生成工具",
+                "icon": "/images/pika.png",
+                "cate": "AI视频工具",
+                "url": "https://pika.art/"
+            },
+            {
+                "name": "讯飞绘影",
+                "desc": "科大讯飞的视频AI工具",
+                "icon": "/images/xunfei.png",
+                "cate": "AI视频工具",
+                "url": "https://typemovie.art/"
+            }
+        ]
+    },
+    {
+        "cate": "AI工作流",
+        "sites": [
+            {
+                "name": "Coze",
+                "desc": "抖音旗下工作流工具",
+                "icon": "/images/coze.png",
+                "cate": "AI工作流",
+                "url": "https://www.coze.com/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "Dify",
+                "desc": "开源的大语言模型应用平台",
+                "icon": "/images/dify.png",
+                "cate": "AI工作流",
+                "url": "https://docs.dify.ai/zh-hans"
+            },
+            {
+                "name": "Smyth OS",
+                "desc": "SaaS版0代码工作流平台",
+                "icon": "/images/smythos.png",
+                "cate": "AI工作流",
+                "url": "https://smythos.com/"
+            },
+            {
+                "name": "MindStudio",
+                "desc": "AI Agent平台",
+                "icon": "/images/mindstudio.png",
+                "cate": "AI工作流",
+                "url": "https://www.mindstudio.ai/"
+            },
+            {
+                "name": "影刀",
+                "desc": "RPA工作流+AI",
+                "icon": "/images/yingdao.png",
+                "cate": "AI工作流",
+                "url": "https://www.yingdao.com/"
+            },
+            {
+                "name": "Zapier",
+                "desc": "自动化处理平台",
+                "icon": "/images/zapier.png",
+                "cate": "AI工作流",
+                "url": "https://zapier.com/"
+            },
+            {
+                "name": "GPTAgent",
+                "desc": "AI工具APP",
+                "icon": "/images/zapier.png",
+                "cate": "AI工作流",
+                "url": "https://www.gptagent.com/"
+            },
+            {
+                "name": "Coflow",
+                "desc": "极简的工作流工具",
+                "icon": "/images/zapier.png",
+                "cate": "AI工作流",
+                "url": "https://www.joincoflow.com/"
+            }
+        ]
+    },
+    {
+        "cate": "AI工具集",
+        "sites": [
+            {
+                "name": "AiPPT",
+                "desc": "AI快速生成高质量PPT",
+                "icon": "/images/aippt.png",
+                "cate": "PPT",
+                "url": "https://www.aippt.com/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "讯飞智文",
+                "desc": "科大讯飞的智能文档AI助理",
+                "icon": "/images/xunfeizhiwen.png",
+                "cate": "PPT",
+                "url": "https://zhiwen.xfyun.cn/"
+            },
+            {
+                "name": "decktopus",
+                "desc": "海外的PPT生成工具",
+                "icon": "/images/decktopus.png",
+                "cate": "PPT",
+                "url": "https://www.decktopus.com/"
+            },
+            {
+                "name": "decktopus",
+                "desc": "海外的PPT生成工具",
+                "icon": "/images/decktopus.png",
+                "cate": "PPT",
+                "url": "https://www.decktopus.com/"
+            },
+            {
+                "name": "LivePPT",
+                "desc": "美图旗下美图设计室AI工具",
+                "icon": "/images/meitu.png",
+                "cate": "PPT",
+                "url": "https://www.chatexcel.com/"
+            },
+            {
+                "name": "ChatExcel",
+                "desc": "聊天处理Excel",
+                "icon": "/images/chatexcel.png",
+                "cate": "Excel",
+                "url": "https://www.designkit.com/ppt/"
+            },
+            {
+                "name": "formula bot",
+                "desc": "Excel & Google Sheet公式生成器",
+                "icon": "/images/formulabot.png",
+                "cate": "Excel",
+                "url": "https://app.formulabot.com/"
+            }
+        ]
+    },
+    {
+        "cate": "学习资源",
+        "sites": [
+            {
+                "name": "Coursera",
+                "desc": "免费在线课程平台，包罗万象",
+                "icon": "/images/ChatGPT.png",
+                "cate": "学习资源",
+                "url": "https://www.coursera.org/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            },
+            {
+                "name": "Elements of AI",
+                "desc": "赫尔辛基大学和Reaktor开发运营的AI学习平台",
+                "icon": "/images/deepseek.png",
+                "cate": "学习资源",
+                "url": "https://course.elementsofai.com/"
+            },
+            {
+                "name": "Dive Into DL",
+                "desc": "动手学习深度学习课程，AI学习",
+                "icon": "/images/deepseek.png",
+                "cate": "学习资源",
+                "url": "https://courses.d2l.ai/zh-v2/"
+            },
+            {
+                "name": "飞桨AI Studio",
+                "desc": "百度旗下AI学习社区",
+                "icon": "/images/deepseek.png",
+                "cate": "学习资源",
+                "url": "https://courses.d2l.ai/zh-v2/"
+            }
+        ]
+    },
+    {
+        "cate": "娱乐资源",
+        "sites": [
+            {
+                "name": "Suno",
+                "desc": "AI音乐创作平台",
+                "icon": "/images/suno-ai-icon.png",
+                "cate": "娱乐资源",
+                "url": "https://suno.com/",
+                "source": [
+                    {},
+                    {},
+                    {}
+                ]
+            }
+        ]
+    }
+]
