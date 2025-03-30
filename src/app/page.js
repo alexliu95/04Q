@@ -33,7 +33,7 @@ export default function Home() {
 
 	return (
 		<div className="grid grid-cols-12">
-			<div className="col-span-2 w-full text-white h-screen relative">
+			<div className="hidden md:block md:col-span-2 w-full text-white h-screen relative">
 				<div className="text-center cursor-pointer select-none fixed p-2 w-2/12 h-full bg-gray-950">
 					{/* <div className=" py-2 bg-gray-900 hover:bg-gray-800 rounded my-1">热搜头条</div> */}
 					{sites.length > 0 && sites.map((site, i) => (
@@ -41,12 +41,12 @@ export default function Home() {
 					))}
 				</div>
 			</div>
-			<div className="col-span-10 p-4">
+			<div className="col-span-12 md:col-span-10 p-4">
 				{/* <NewsCards /> */}
 				{sites.length > 0 && sites.map((site, i) => (
 					<div key={i}>
 						<div id={site.cate} className="py-2">{site.cate}</div>
-						<div className="grid grid-cols-6 gap-2">
+						<div className="grid grid-cols-2 lg:grid-cols-6 gap-2">
 							{site.sites.map((item, i) => (
 								<Link href={`/link?link=${item.url}`} key={i}><div className="rounded-xl bg-gray-50 p-4 cursor-pointer hover:bg-gray-100">
 									<div className="flex gap-1 items-start">
