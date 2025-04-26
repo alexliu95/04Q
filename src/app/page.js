@@ -70,7 +70,6 @@ export default function Home() {
 						<div className="flex justify-center gap-4 mb-2">
 							<div className="">友情链接</div>
 							<div><a href="https://onpage.ca">Onpage.ca</a></div>
-							<div><a href="https://repowerfinancial.com">Repower Financial</a></div>
 							<div><a href="https://finger-fun.com">Finger Fun</a></div>
 							<div><a href="https://liaolanqi.com">LiaoLanQi</a></div>
 							<div><a href="https://torontor.ca">Torontor.ca</a></div>
